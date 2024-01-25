@@ -1,12 +1,12 @@
 const express = require('express');
-const scrapeWebsite = require('./scraper');
+const combineData = require('./scraper');
 
 const app = express();
 const PORT = process.env.PORT || 3000;
 
 app.get('/api/dados', async (req, res) => {
   try {
-    const data = await scrapeWebsite();
+    const data = await combineData();
     res.json(data);
   } catch (error) {
     res.status(500).json({ error: error.message });
