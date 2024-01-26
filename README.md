@@ -24,6 +24,31 @@ curl -X GET https://api.surfforecast.com/surf-conditions?location=quebra-mar
 Disclaimer
 While web scraping is employed to gather data for this API, efforts are made to ensure accuracy and reliability. However, it is essential to note that web scraping introduces some inherent limitations. Please use the API with awareness of its data source and consider alternative methods if absolute accuracy is critical.
 
+## Local Testing
+To test the Surf Forecast API locally, follow these steps:
+
+Clone the Repository:
+
+``` git clone https://github.com/your-username/surf-forecast-api.git```
+
+Navigate to the Project Directory:
+```
+cd surf-forecast-api
+```
+Install Dependencies:
+```
+npm install
+```
+Run the Server:
+```
+npm start
+```
+Test Locally:
+
+Open your browser and visit http://localhost:3000/api/dados to check the API's response.
+
+
+
 ## Contribution
 Contributions to improve and expand the Surf Forecast API are welcome! Feel free to open issues, submit pull requests, or provide feedback to help enhance the API.
 
