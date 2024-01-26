@@ -18,9 +18,9 @@ Centralized Information: Access all the essential information in one place, maki
 To use the Surf Forecast API, make a request to the specified endpoints and receive JSON-formatted data in response. Check the documentation for details on available endpoints, request parameters, and response formats.
 
 ## Example Usage
-bash
-Copy code
+```
 curl -X GET https://api.surfforecast.com/surf-conditions?location=quebra-mar
+```
 Disclaimer
 While web scraping is employed to gather data for this API, efforts are made to ensure accuracy and reliability. However, it is essential to note that web scraping introduces some inherent limitations. Please use the API with awareness of its data source and consider alternative methods if absolute accuracy is critical.
 
